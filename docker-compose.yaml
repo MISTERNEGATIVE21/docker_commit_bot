@@ -1,0 +1,13 @@
+version: '3'
+services:
+  commit-bot:
+    build:
+      context: .
+    image: commit-bot:latest
+    container_name: commit-bot-container
+    environment:
+      - GITHUB_USERNAME=${GITHUB_USERNAME}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - REPO_OWNER=${REPO_OWNER}
+      - REPO_NAME=${REPO_NAME}
+      - TIMES_TO_EXECUTE=${TIMES_TO_EXECUTE}
