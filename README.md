@@ -50,10 +50,7 @@ To use this bot, obtain a GitHub Personal Access Token with the necessary scopes
      ```
 # Shortcut Method: Deploy Docker Compose with Variable Edits
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+1. **Copy docker-compose.yaml file:**
 
 2. **Edit .env File**
 
