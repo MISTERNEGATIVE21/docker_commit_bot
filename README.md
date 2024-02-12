@@ -65,7 +65,7 @@ Follow these steps to customize the application configuration by editing the `.e
      - `GITHUB_TOKEN=your-github-token`
      - `REPO_OWNER=your-github-username`
      - `REPO_NAME=your-repo-name`
-
+     - `TIMES_TO_EXECUTE=(keep it between4-5)`
 Save the changes after modifying the variables to tailor the application to your GitHub environment.
 
 **Advice:**
