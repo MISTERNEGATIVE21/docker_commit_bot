@@ -3,7 +3,7 @@ services:
   commit-bot:
     build:
       context: .
-    image: misternegative21/commit-bot:latest
+    image:   2441139/docker_github_commit_bot:latest
     container_name: commit-bot-container
     environment:
       - GITHUB_USERNAME=${GITHUB_USERNAME}
