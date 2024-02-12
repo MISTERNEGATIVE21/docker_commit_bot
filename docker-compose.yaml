@@ -11,3 +11,4 @@ services:
       - TIMES_TO_EXECUTE=${TIMES_TO_EXECUTE}
     ports:
       - "35483:80"
+    network_mode: bridge
