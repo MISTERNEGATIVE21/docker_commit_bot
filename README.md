@@ -74,4 +74,9 @@ Save the changes after modifying the variables to tailor the application to your
 This project is meant to be a fun and light-hearted experiment. Please use it responsibly and avoid any misuse of the GitHub platform. Excessive or inappropriate use of automated commit tools can violate GitHub's terms of service.
 
 Remember to respect the community guidelines and terms set by GitHub. Use this tool in a positive and constructive manner, and always be mindful of ethical considerations. Let's keep the coding community enjoyable for everyone!
-Thank you for using our Dockerized Git Commit Bot! If you have any questions or need assistance, feel free to reach out. Happy coding!
+
+**If you enjoyed this project:**
+
+Please consider giving it a ⭐ (star) or 👍 (like) to show your appreciation. If you find it useful, feel free to fork it and customize it for your own projects.
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=misternegative21/docker_commit_bot)
