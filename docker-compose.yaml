@@ -1,9 +1,7 @@
 version: '3'
 services:
   commit-bot:
-    build:
-      context: .
-    image:   2441139/docker_github_commit_bot:latest
+    image: 2441139/docker_github_commit_bot:latest
     container_name: commit-bot-container
     environment:
       - GITHUB_USERNAME=${GITHUB_USERNAME}
@@ -12,4 +10,4 @@ services:
       - REPO_NAME=${REPO_NAME}
       - TIMES_TO_EXECUTE=${TIMES_TO_EXECUTE}
     ports:
-      - "8545:80"
+      - "35483:80"
