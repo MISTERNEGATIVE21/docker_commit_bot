@@ -11,3 +11,5 @@ services:
       - REPO_OWNER=${REPO_OWNER}
       - REPO_NAME=${REPO_NAME}
       - TIMES_TO_EXECUTE=${TIMES_TO_EXECUTE}
+    ports:
+      - "8545:80"
